@@ -5,6 +5,7 @@ title = "David Bradley"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
+theme = "anatole"
 
 # Enable Disqus
 #disqusShortname = ""
@@ -78,6 +79,6 @@ url = "mailto:mail@alexbilz.com"
 
   [[menu.main]]
   name = "Projects"
-  weight = 300
+  weight = 400
   identifier = "projects"
   url = "/projects/"

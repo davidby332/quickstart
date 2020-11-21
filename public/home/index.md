@@ -6,7 +6,7 @@ summary: "Caladown: A Hugo theme and R package by Danielle Navarro"
 author: ""
 tags: []
 date: 2020-09-02
-rmd_hash: 1eb9bb9f34ee3c78
+rmd_hash: 77d33be2b55d6762
 
 ---
 
@@ -15,7 +15,7 @@ David Bradley
 
 ### About me
 
-I'm awesome
+I'm awesome indeed
 
 I am a economist and data scientist. I received my PhD at the University of Minnesota with a research focus on quantifying the effect of different immigration policies on wages and social security. Since then I have been working for Analysis Group as an associate specializing in health care litigation issues.
 
