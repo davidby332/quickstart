@@ -79,6 +79,6 @@ url = "mailto:mail@alexbilz.com"
 
   [[menu.main]]
   name = "Projects"
-  weight = 400
+  weight = 300
   identifier = "projects"
   url = "/projects/"
