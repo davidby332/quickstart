@@ -2,10 +2,10 @@ baseURL = "https://relaxed-joliot-698b4e.netlify.app"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "David Bradley"
+theme = "anatole"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
-theme = "anatole"
 
 # Enable Disqus
 #disqusShortname = ""
@@ -27,31 +27,30 @@ images = ["images/site-feature-image.png"]
 # Google Site Verification
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
-
-
 ## Math settings
 [params.math]
 enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
 use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
 [[params.socialIcons]]
-icon = "fa-linkedin"
+icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://de.linkedin.com/"
 
 [[params.socialIcons]]
-icon = "fa-github"
+icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/lxndrblz/anatole/"
 
 [[params.socialIcons]]
-icon = "fa-instagram"
+icon = "fab fa-instagram"
 title = "instagram"
 url = "https://www.instagram.com/"
 
 [[params.socialIcons]]
-icon = "fa-envelope"
+icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:mail@alexbilz.com"
 
@@ -63,7 +62,7 @@ url = "mailto:mail@alexbilz.com"
   name = "Home"
   identifier = "home"
   weight = 100
-  url = "/home/"
+  url = "/"
 
   [[menu.main]]
   name = "Posts"
@@ -79,6 +78,6 @@ url = "mailto:mail@alexbilz.com"
 
   [[menu.main]]
   name = "Projects"
-  weight = 300
+  weight = 400
   identifier = "projects"
   url = "/projects/"
