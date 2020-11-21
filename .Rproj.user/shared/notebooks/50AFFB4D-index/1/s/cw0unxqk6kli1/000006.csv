@@ -1,3 +1,0 @@
-"0","library(thematic)"
-"0","thematic_on(bg = ""#eeeeee"")"
-"0","ggplot(mpg, aes(displ, hwy)) + geom_point() "

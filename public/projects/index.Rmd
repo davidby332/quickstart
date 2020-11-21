@@ -1,0 +1,18 @@
+---
+title: "Embedding a shiny app in blogdown"
+# author: "Brett Ory"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(ggplot2)
+library(shiny)
+library(widgetframe)
+```
+
+<br>
+
+<iframe width="700" height="700" scrolling="no" frameborder="no"  src="https://davidby332.shinyapps.io/opioids_r/"> </iframe> 

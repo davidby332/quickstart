@@ -76,3 +76,9 @@ url = "mailto:mail@alexbilz.com"
   weight = 300
   identifier = "about"
   url = "/about/"
+
+  [[menu.main]]
+  name = "Projects"
+  weight = 300
+  identifier = "projects"
+  url = "/projects/"
