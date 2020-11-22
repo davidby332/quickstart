@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://bradlecon.com/about/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://bradlecon.com/post/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/home/</loc>
+    <loc>https://bradlecon.com/home/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://bradlecon.com/categories/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://bradlecon.com/</loc>
   </url>
   
   <url>
-    <loc>/projects/</loc>
+    <loc>https://bradlecon.com/projects/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://bradlecon.com/tags/</loc>
   </url>
   
 </urlset>
