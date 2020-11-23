@@ -2,43 +2,140 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Bradley</title>
-    <link>https://bradlecon.com/</link>
+    <link>/</link>
     <description>Recent content on David Bradley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://bradlecon.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>/post/rich-content/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rich-content/</guid>
+      <description>&lt;p&gt;I am a economist and data scientist. I received my PhD at the University of Minnesota with a research focus on quantifying the effect of different immigration policies on wages and social security. Since then I have been working for Analysis Group as an associate specializing in health care litigation issues. On this site are examples of previous research and projects, a PDF version of my resume can be downloaded &lt;a href=&#34;https://bradlecon.com/resume/resume_11_20.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Education:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;University of Minnesota, MN, 2013-2019, Ph.D in Economics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Created quantitative models to predict the effects of changing immigration policy on labor markets and U.S. fiscal policy.&lt;/li&gt;
+&lt;li&gt;Utilized econometric methods to analyze and estimate workers&#39; substitutability by educational attainment and country of education using large scale census data from IPUMS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;University of Minnesota, MN, 2013-2015 MA, in Economics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identified and forecast the main drivers of the U.S business cycle using time series data.&lt;/li&gt;
+&lt;li&gt;Analyzed cross-country data and performed statistical analysis to understand the linkages between international trade flows and fiscal policy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;University of Manchester, UK, 2010-2012, BEconSc in Economics&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Completed extensive coursework in econometrics with applications to finance.&lt;/li&gt;
+&lt;li&gt;Ranked in top 1% of class and received the Dean’s Achievement Award.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Experience&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Analysis Group, Associate in Health Care Litigation and Data Science, Boston, 2019&amp;ndash;Present&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Managed teams of analysts in building models using large scale patient claims data to calculate damages in healthcare litigation.&lt;/li&gt;
+&lt;li&gt;Collaborated on data science projects using NLP to analyze the similarity of patents by rival pharmaceutical companies.&lt;/li&gt;
+&lt;li&gt;Developed machine learning training materials in Python and R.&lt;/li&gt;
+&lt;li&gt;Built interactive dashboards, incorporating feeds from APIs, for clients to understand opioid use across states and time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;University of Minnesota, Lead Instructor for Principles of Macroeconomics, Minneapolis, 2014&amp;ndash;2019&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collaborating and leading a team of 15 teaching assistants and instructors to create learning resources.&lt;/li&gt;
+&lt;li&gt;Communicating these learning resources to over 700 students through seminars, lectures and online learning.&lt;/li&gt;
+&lt;li&gt;Received the Distinguished Instructor Award 10 times, for obtaining a rating above 90% in student feedback evaluations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analysis Group, Summer Associate Consultant, Washington, D.C., 2017&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provided theoretical analysis of monopolies in the technology industry as well as the interaction of firm structure and tax liability.&lt;/li&gt;
+&lt;li&gt;Communicated the findings of these projects to upper level management and clients.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Economic Development Fellows Program at the University of Minnesota, Consultant, Minneapolis, 2017&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provided statistical analysis and forecasts of future sales as part of pro-bono consulting services to a Minneapolis based medical device company to help complete the commercial section of a grant application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Skills&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Coding&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, Dash&lt;/li&gt;
+&lt;li&gt;R, RMarkdown, Rshiny&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;Matlab&lt;/li&gt;
+&lt;li&gt;STATA&lt;/li&gt;
+&lt;li&gt;AWS&lt;/li&gt;
+&lt;li&gt;Google Cloud Platform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Certification&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Coursera: Google Cloud Platform Big Data and Machine Learning Fundamentals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
     <item>
       <title>about</title>
-      <link>https://bradlecon.com/about/</link>
+      <link>/about/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bradlecon.com/about/</guid>
+      <guid>/about/</guid>
       <description>Caladown: A Hugo theme and R package by Danielle Navarro</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>https://bradlecon.com/post/</link>
+      <link>/bum/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bradlecon.com/post/</guid>
+      <guid>/bum/</guid>
       <description>Caladown: A Hugo theme and R package by Danielle Navarro</description>
     </item>
     
     <item>
       <title>home</title>
-      <link>https://bradlecon.com/home/</link>
+      <link>/home/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://bradlecon.com/home/</guid>
+      <guid>/home/</guid>
       <description>Caladown: A Hugo theme and R package by Danielle Navarro</description>
     </item>
     
     <item>
+      <title></title>
+      <link>/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Embedding a shiny app in blogdown</title>
-      <link>https://bradlecon.com/projects/</link>
+      <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bradlecon.com/projects/</guid>
+      <guid>/projects/</guid>
       <description>From a technical standpoint I took this project on to get some practice with APIs, refresh my SQL skills and scraping.</description>
     </item>
     
