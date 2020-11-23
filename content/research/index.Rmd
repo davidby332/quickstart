@@ -1,0 +1,11 @@
+---
+output: hugodown::md_document
+title: "Research"
+type: "page"
+summary: "Caladown: A Hugo theme and R package by Danielle Navarro"
+author: ""
+tags: []
+date: 2020-09-02
+---
+
+Here is a link to my first paper. [here](https://www.bradlecon.com/research/Thesis__Data.pdf)

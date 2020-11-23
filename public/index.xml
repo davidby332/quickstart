@@ -113,11 +113,11 @@
     </item>
     
     <item>
-      <title>home</title>
-      <link>/home/</link>
+      <title>Research</title>
+      <link>/research/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/home/</guid>
+      <guid>/research/</guid>
       <description>Caladown: A Hugo theme and R package by Danielle Navarro</description>
     </item>
     
