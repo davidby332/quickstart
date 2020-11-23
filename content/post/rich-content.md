@@ -5,7 +5,7 @@ date = "2020-11-20"
 description = "A brief description of Hugo Shortcodes"
 +++
 
-I am a economist and data scientist. I received my PhD at the University of Minnesota with a research focus on quantifying the effect of different immigration policies on wages and social security. Since then I have been working for Analysis Group as an associate specializing in health care litigation issues. On this site are examples of previous research and projects, a PDF version of my resume can be downloaded [here](https://www.bradlecon.com/resume/resume_11_20.pdf).
+I am a economist and data scientist. I received my PhD at the University of Minnesota with a research focus on quantifying the effect of different immigration policies on wages and social security. Since then I have been working for Analysis Group as an associate specializing in health care litigation issues. On this site are examples of previous research and projects, a PDF version of my resume can be downloaded [here](https://www.bradlecon.com/resume/resume_butt.pdf).
 
 **Education:**
 
