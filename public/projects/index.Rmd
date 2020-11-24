@@ -4,6 +4,6 @@ author: "David Bradley"
 
 ---
 
-[**Publicly Available Opioid Data**](http://bradlecon.com/projects/opioids)
+[**Publicly Available Opioid Data**](https://www.bradlecon.com/projects/opioids)
 
 I take data from Medicaid's State Drug Utilization Database and the Centers for Disease Control website to put illustrate opioid prescribing trends across states and time.
