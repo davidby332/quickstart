@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> David Bradley | Publicly Available Opioid Data </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.75.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet"
+          href="/css/style.min.1c0a3b3545b31127953f86b45424e02f81874a5d890485102b01320f863b688e.css"
+          integrity="sha256-HAo7NUWzESeVP4a0VCTgL4GHSl2JBIUQKwEyD4Y7aI4="
+          crossorigin="anonymous"
+          type="text/css"><link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+
+    <link rel="canonical" href="/projects/opioids/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="/js/anatole-header.min.e782db136ec18d105a4552702eac49f4620d6867da3fbf808bd53e806c96be6e.js"
+            integrity="sha256-54LbE27BjRBaRVJwLqxJ9GINaGfaP7&#43;Ai9U&#43;gGyWvm4="
+            crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Publicly Available Opioid Data"/>
+<meta name="twitter:description" content="From a technical standpoint I took this project on to get some practice with APIs, refresh my SQL skills and scraping."/>
+
+</head>
+<body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+        <div class="title">
+            <img src="/images/profile.png" alt="profile picture">
+            <h3 title=""><a href="/">David Bradley</a></h3>
+            <div class="description">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://linkedin.com/in/david-bradley-9a9059b0" rel="me" aria-label="Linkedin">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/davidby332" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="davidby332@gmail.com" rel="me" aria-label="e-mail">
+                    <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; David Bradley 2020 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top animated fadeInDown">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/files/resume_11_20.pdf"
+                        
+                   title="">Resume</a></li>
+        
+            
+            <li><a 
+                   href="/projects/"
+                        
+                   title="">Projects</a></li>
+        
+            
+            <li><a 
+                   href="/research/"
+                        
+                   title="">Research</a></li>
+        
+        
+        <li class="theme-switch-item">
+            <a class="theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post animated fadeInDown">
+        <div class="post-content">
+
+            <div class="post-title">
+                <h3>Publicly Available Opioid Data</h3>
+                
+            </div>
+
+            
+
+
+<p>From a technical standpoint I took this project on to get some practice with APIs, refresh my SQL skills and scraping. There are also some great datasets for analyzing opioid use, a topic I find fascinating given the effects it has had on people’s lives.</p>
+<p><strong>Medicaid Data</strong></p>
+<p>Many states have created their own dashboards to track the opioid usage and give some historical persepctive. California is a great example, users are able to look at a wide arrary of variables such as opioid induced hospitalizations, prescriptions and deaths going back to 2008 bot at a state and county level. Another example is Arizona which has it’s dashboard for real time tracking of opioid prescriptions in the state. However, the limitation of both these dashboards is how far back the data goes. While the opioid crisis has come to prominence in recent years, opioid prescriptions have been on the rise since the late 1990s.</p>
+<p>To overcome this lack of data for earlier years we can use Medicaid’s State Drug Utilization Data. The dataset has, for each quarter starting in 1991 Q1, the number of prescriptions and units dispensed through each state’s Medicaid program. The dataset contains all drugs dispensed through Medicaid and not just opioids. Another advantage of this data is that Medicaid has done a great job of cleaning the data and providing it both for download and through an API. The main drawback of this dataset is that it only covers Medicaid which accounts for roughly 20% of American’s health insurance. On the flip side to access to Medicaid typically limited to those with low incomes, a group that were disproportinately affected by the opioid crisis.</p>
+<p>The only real cleaning step with this dataset is identifying which drugs are considered opioids. SDUD does not directly identify which drugs are opioids. Further, the CDC has created a publicly available dataset with the drug codes of what it considers to be opioids. By merging the information from the CDC dataset onto our SDUD dataset we can identify which entries in SDUD are in fact opioids.</p>
+<p>if you were to dig into data and filter by drug name you may notice that there are certain entries with “Codeine” or “Hydrocodone” in the name but aren’t defined as opioids. Typically these prescriptions for cough and cold which contain codeine or hydrocodone and not typically in large enough quantities to lead to addiction.</p>
+<p><strong>Prescriptions over time</strong></p>
+<p>The app uses data from the SDUD API merged with the CDC dataset as outline above and allows you to see for each state the number of prescriptions, prescriptions per Medicaid beneficiary, units and Morphine Miligram Equivalent (MME) over time. The latter measure allows direct comparison of opioids by assessing their strength. Prescriptions per Medicaid beneficiary is only available from 2013 onwards since the data prior to that is spread out across each state’s Medicaid website. For ease of viewing I filtered to only show opioids that had over 10% market share in one state by prescriptions between 1991 and 2018. Even with this filter you can see that in many states the market is concentrated within two opioids.</p>
+<iframe width="800" height="600" scrolling="no" frameborder="no" src="https://davidby332.shinyapps.io/opioids_r/">
+</iframe>
+<p>Looking through at different states you may have noticed kinks in the data around 2005, 2010, 2014. The first kink in 2005 aligns with the creation of Medicare Part D. Prior to the creation of Medicare Part D some low income elderly would receive pharmacy benefits through Medicaid. After the creation of Medicare Part D, Medicaid became the “provider of last resort”.</p>
+<p>What we see in 2010 is likely an early effect of the affordable care act, the act changed the way that Medicaid reported prescriptions to the government to ensure full reimbursement. Finally in 2014 many states expanded Medicaid. One conclusion that you may be tempted to draw from this is that expanding Medicaid made the opioid crisis worse. However, what matters to us is the opioids per beneficiary which as you can see implies a different conclusion.</p>
+<p>Within states you may have noticed that Hydrocodone-Acetaminophen and Oxycodone-Acetaminophen were the top prescribed opioids. One exception is New Hampshire which had a surprisingly even split over which opioids their Medicaid beneficiaries were prescribed. To illustrate this trend in Hydrocodone and Oxycodone-Acetaminophen is the map below that shows which states had each drug as their number top prescribed opioid between 1991 and 2018.</p>
+<p>The most notable ommission from the graphs is Fentanyl. Fentanyl is an incredibly powerful opioid that can have strong side effects even when used in low doses. However, under Medicaid it’s rarely prescribed and is typically used recreationally rather than being prescribed.</p>
+<p><img src="/projects/opioids/index_files/figure-html/unnamed-chunk-2-1.png" width="960" /></p>
+<p><strong>Deaths from Opioids</strong></p>
+<p>The adverse effects of opioid cover drowsiness, confusion and in prolonged use severe constipation. In addition prolonged and intense use of opioids can result in death. To analyze the links between opioid usage and death we can use data directly from the CDC. For data on opioid related deaths we can leverage the Multiple Cause of Deaths database from CDC Wonder. CDC Wonder has some fantastic publicly available datasets and is fairly user friendly. The Multiple Cause of Deaths database allows you to request the how many people died from a certain cause by location and time period. For this exercise again I’m going to look only at deaths in states. We could go to a more granular level by county for example but at that point we hit data suppression i.e so few people died from a certain cause in a county in a year that you may be able to identify the individual.</p>
+<p>As for prescription data we could leverage the SDUD used earlier. However, the deaths are measure across the entire states so the prescription data must be equivalent. In addition to their opioid classification dataset the CDC also publishes maps and tables detailing opioid prescribing in states over time. The app is built from data scraped from the CDC website. The first tab shows opioid prescriptions per 100 as well as deaths per 100,000 over time for a state of your choosing. The second tab shows the ratio of deaths to prescriptions, the darker the red the higher the ratio. The third tab plots the two variables on the same graph, and calculates the correlation between the two depending on which years you choose with the slider.</p>
+<iframe width="800" height="700" scrolling="no" frameborder="no" src="https://davidby332.shinyapps.io/opioids_cdc/">
+</iframe>
+<p>From the first and third tabs the evidence between opioid prescribing and deaths isn’t as strong as you may think in some scenarios the correlation becomes negative. However, this is likely masking the differences in opioid prescribing intensity. For example one prescription for 100 people and 100 prescriptions for one person with the other 99 are likely to have very different effects despite being the same prescriptions per 100 people.</p>
+<p>The second tab goes someway to illustrating this issue. Restricting the years has very different effects. For example using the entire time period 2006-2018 the death to prescriptions ratio looks similar across states. However, restricting to 2006 to 2010 there are much darker red states. This was close to the peak of the opioid epidemic with prescribing intensity at an all time high. Whereas in 2014 the CDC brought in prescribing guidelines which dramatically cut the intensity of opioid prescriptions.</p>
+<p>All the code needed to generate the content of this is in my github and I’ll continue to update as new quarters of data get released.</p>
+
+        </div>
+        <div class="post-footer">
+            <div class="info">
+                
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js"
+        integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw="
+        crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"
+        src="/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js"
+        integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js"
+        integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
