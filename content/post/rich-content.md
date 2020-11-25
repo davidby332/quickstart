@@ -13,14 +13,17 @@ I am a economist and data scientist. I received my PhD at the University of Minn
 
   - Created quantitative models to predict the effects of changing immigration policy on labor markets and U.S. fiscal policy.
   - Utilized econometric methods to analyze and estimate workers' substitutability by educational attainment and country of education using large scale census data from IPUMS.
+  - Developed custom optimization methods to reduce the run time of the model central to my thesis from 22 hours to under 2 minutes allowing for more in depth policy analysis.
   
 - University of Minnesota, MN, 2013-2015 MA, in Economics
 
   - Identified and forecast the main drivers of the U.S business cycle using time series data.
   - Analyzed cross-country data and performed statistical analysis to understand the linkages between international trade flows and fiscal policy.
+  - Completed extensive coursework in both cross section and time series econometrics, computational methods and trade economics.
+  
 - University of Manchester, UK, 2010-2012, BEconSc in Economics
 
-  - Completed extensive coursework in econometrics with applications to finance.
+  - Completed extensive coursework in econometrics and statistics with applications to finance.
   - Ranked in top 1\% of class and received the Dean’s Achievement Award.
 
 
@@ -28,16 +31,16 @@ I am a economist and data scientist. I received my PhD at the University of Minn
 
 - Analysis Group, Associate in Health Care Litigation and Data Science, Boston, 2019--Present
 
-  - Managed teams of analysts in building models using large scale patient claims data to calculate damages in healthcare litigation.
-  - Collaborated on data science projects using NLP to analyze the similarity of patents by rival pharmaceutical companies.
-  - Developed machine learning training materials in Python and R.
-  - Built interactive dashboards, incorporating feeds from APIs, for clients to understand opioid use across states and time.
-
+  - Managing teams of one to three analysts in building models using large scale patient claims data to understand pharmaceutical markets as part of healthcare litigation.
+  - Using econometric models to analyze the effects of illegal physician advertising on prescribing. A result of which was a reduction in damages to our client of 96%.
+  - Collaborating on data science projects using NLP to analyze the similarity of patents by rival pharmaceutical companies.
+  - Incorporating data from APIs into interactive dashboards to successfully help clients understand opioid prescribing across states and time.
+  - Developing machine learning training materials in Python and R.
 
 - University of Minnesota, Lead Instructor for Principles of Macroeconomics, Minneapolis, 2014--2019 
 
-  - Collaborating and leading a team of 15 teaching assistants and instructors to create learning resources. 
-  - Communicating these learning resources to over 700 students through seminars, lectures and online learning.
+  - Collaborated and leading a team of 15 teaching assistants and instructors to create learning resources. 
+  - Communicated these learning resources to over 700 students through seminars, lectures and online learning.
   - Received the Distinguished Instructor Award 10 times, for obtaining a rating above 90\% in student feedback evaluations.
 
 - Analysis Group, Summer Associate Consultant, Washington, D.C., 2017
@@ -57,7 +60,8 @@ I am a economist and data scientist. I received my PhD at the University of Minn
   - R, RMarkdown, Rshiny
   - SQL
   - Matlab 
-  - STATA 
+  - STATA
+  - SAS
   - AWS
   - Google Cloud Platform
   

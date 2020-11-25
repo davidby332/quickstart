@@ -46,7 +46,7 @@ Within states you may have noticed that Hydrocodone-Acetaminophen and Oxycodone-
 The most notable ommission from the graphs is Fentanyl. Fentanyl is an incredibly powerful opioid that can have strong side effects even when used in low doses. However, under Medicaid it's rarely prescribed and is typically used recreationally rather than being prescribed.
 
 ```{r, include = FALSE}
-source('/Users/david/Library/Mobile Documents/com~apple~CloudDocs/Data science/opioids_R/opioids_SDUD/rank_maps.R', local = knitr::knit_global())
+source('/Users/david/Library/Mobile Documents/com~apple~CloudDocs/Data science/project_opioids/opioids_SDUD/rank_maps.R', local = knitr::knit_global())
 ```
 
 ```{r, echo=FALSE, fig.width=10,fig.height=5}

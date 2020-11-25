@@ -63,7 +63,7 @@ url = "davidby332@gmail.com"
   name = "Resume"
   weight = 200
   identifier = "resume"
-  url = "/files/resume_11_20.pdf"
+  url = "/files/resume_11_24.pdf"
 
   [[menu.main]]
   name = "Projects"
