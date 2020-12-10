@@ -71,8 +71,8 @@ url = "davidby332@gmail.com"
   identifier = "projects"
   url = "/projects/"
 
-#  [[menu.main]]
-#  name = "Research"
-#  weight = 400
-#  identifier = "research"
-#  url = "/research/"
+   [[menu.main]]
+   name = "Research"
+   weight = 400
+   identifier = "research"
+   url = "/research/"
